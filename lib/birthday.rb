@@ -6,8 +6,11 @@
 
 def happy_birthday(birthday_kids)
   # add your code snippet here!
-  "Happy Birthday Timmy! You are now 9 years old!"
-  
+  birthday_kids.each {|name, age|
+   res << "Happy Birthday #{name}! You are now #{age} years old!" 
+  }
+  res
 end
+
 
 
